@@ -2,7 +2,7 @@
 const axios = require('axios').default;
 
 // Sending a GET request to the specified URL using axios
-const req = axios.get("https://raw.githubusercontent.com/ibm-developer-skills-network/lkpho-Cloud-applications-with-Node.js-and-React/master/CD220Labs/async_callback/courseDetails.json");
+const req = axios.get("https://raw.githubusercontent.com/tusharkumar2020/project-4/refs/heads/master/CD220Labs/async_callback/courseDetails.json");
 // Logging the initial promise object
 console.log(req);
 // Handling the promise resolution

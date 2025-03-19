@@ -24,6 +24,6 @@ const connectToURL = (url) => {
 }
 
 // Valid URL
-connectToURL('https://raw.githubusercontent.com/ibm-developer-skills-network/lkpho-Cloud-applications-with-Node.js-and-React/master/CD220Labs/async_callback/sampleData.json');
+connectToURL('https://raw.githubusercontent.com/tusharkumar2020/project-4/refs/heads/master/CD220Labs/async_callback/sampleData.json');
 // Invalid URL
-connectToURL('https://raw.githubusercontent.com/ibm-developer-skills-network/lkpho-Cloud-applications-with-Node.js-and-React/master/CD220Labs/async_callback/sampleDate.json');
+connectToURL('https://raw.githubusercontent.com/tusharkumar2020/project-4/refs/heads/master/CD220Labs/async_callback/sampleData.json');
