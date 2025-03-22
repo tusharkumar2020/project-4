@@ -32,3 +32,16 @@ app.get("/:name", (req, res) => {
 app.listen(3333, () => {
     console.log(`Listening at http://localhost:3333`);
 });
+
+// Define an array containing the names of the months
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+// Create a list with the names of the month
+app.get("/getchMonth/:num", (req, res) => {
+    let num = parseInt(req.params.num);
+    if (num < 1 || num > 12) {
+        res.send("Not a valid month number");
+    } else {
+        res.send(months[num - 1]);
+    }
+});
